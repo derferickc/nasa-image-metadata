@@ -1,8 +1,25 @@
 $white: #ffffff;
 $black: #000000;
-$blue: #0837CB;
+$blue: #003399;
 $lightblue: #3160F3;
 $darkgrey: #26282f;
+$red: #e62e00;
+$lightred: #991f00;
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms linear;
+}
 
 .container {
   max-width: unset !important;
@@ -35,6 +52,43 @@ $darkgrey: #26282f;
       }
     }
   }
+  a:hover {
+    text-decoration: none;
+    .image, .copy {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.learnmore-cta {
+  background-color: $blue;
+  color: $white;
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+  display: inline-block;
+  margin: 25px 10px 0 10px;
+  border-bottom: 2px solid $black;
+  border-radius: 4px;
+}
+
+.learnmore-cta:hover {
+  background-color: $lightblue;
+}
+
+.learnmore-cta-earth {
+  background-color: $red;
+  color: $white;
+  text-align: center;
+  padding: 10px 25px 10px 25px;
+  display: inline-block;
+  margin: 25px 10px 0 10px;
+  border-bottom: 2px solid $black;
+  border-radius: 4px;
+}
+
+.learnmore-cta-earth:hover {
+  background-color: $lightred;
+  transform: scale(1.1);
 }
 
 .partial {
@@ -76,19 +130,6 @@ $darkgrey: #26282f;
       .caption {
         margin-top: 10px;
       }
-      .learnmore-cta {
-        background-color: $blue;
-        color: $white;
-        text-align: center;
-        padding: 12px 30px;
-        display: inline-block;
-        margin: 25px 10px 0 10px;
-        box-shadow: 5px 5px $black;
-      }
-
-      .learnmore-cta:hover {
-        background-color: $lightblue;
-      }
     }
   }
 
@@ -121,15 +162,26 @@ $darkgrey: #26282f;
       }
       .right {
           .keyword-label {
-            background-color: $blue;
+            background-color: $red;
             color: $white;
             text-align: center;
-            padding: 2px 15px;
-            margin-right: 10px;
-            margin-bottom: 10px;
+            padding: 5px;
+            display: inline-block;
+            margin: 5px;
+            border-radius: 4px;
             display: inline-block;
           }
       }
     }
+  }
+  .notfound-image-page-wrapper {
+    background-image: url("https://media.giphy.com/media/3o7buijTqhjxjbEqjK/giphy.gif");
+    background-color: $darkgrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid $black;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }

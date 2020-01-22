@@ -11,11 +11,6 @@ class Image extends Component {
     
     return (
       <div className="image-page-wrapper">
-        <div className="image-header">
-          <NavLink to="/">
-            <h1>Take me back to see other staff members!</h1>
-          </NavLink>
-        </div>
 
         {imageData.data.map((data) => (
           <div className="flex-wrapper" key={data.nasa_id}>
@@ -25,7 +20,7 @@ class Image extends Component {
             </div>
             <div className="col-12 col-sm-6 right text-left">
               <p><strong>Description:</strong> {data.description}</p>
-              <p><strong>Date Taken:</strong> {data.date_created}</p>
+              <p><strong>Date Taken:</strong> {data.date_created.substring(0, 10)}</p>
 
               { data.photographer &&
                 <p><strong>Photographer:</strong> {data.photographer}</p>
@@ -43,6 +38,12 @@ class Image extends Component {
             </div>
           </div>
         ))}
+
+        <div>
+          <NavLink to="/">
+            <div className="learnmore-cta">RETURN HOME</div>
+          </NavLink>
+        </div>
 
       </div>
     )

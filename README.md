@@ -6,7 +6,7 @@
 
 > A simple application that utilizes the NASA Image and Video Library API to fetch and serve images and their respective metadata to the client.
 
-> Technology used: React, fetch, API, HTML5, SASS, CSS3 ES6, Firebase
+> Technology used: React, fetch, API, HTML5, SASS, CSS3, TransitionGroup, CSSTransition, ES6, Firebase
 
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-4.png?alt=media&token=748bed43-1662-40d0-832d-e5b93817904d" title="screenshot-1" alt="screenshot-1">
 
@@ -29,3 +29,11 @@
 ### Clone
 
 - Clone this repo to your local machine using `git clone https://github.com/derferickc/nasa-image-metadata`
+
+### Instructions
+
+- Visit localhost:3000 to view the Homepage, a table of images and previews of its metadata
+- Clicking on the NASA logo on the top right will return user to the Homepage
+- Homepage: Click "LEARN MORE" CTA in order to view additional information about the image
+- Image Pages: Click "RETURN HOME" CTA if on image URL (url includes "/image/") to return to Homepage
+- If you attempt to access a URL that is not defined, you will be directed to a 404 landing page
