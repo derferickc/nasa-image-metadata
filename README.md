@@ -1,68 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://pixabay-search-app.web.app/">
+	<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/nasa_logo.png?alt=media&token=ba2231d8-0762-4f3f-aef2-8e3717e58f126" title="nasa-logo" alt="nasa-logo" width="150">
+</a>
 
-## Available Scripts
+# NASA Image Search App
 
-In the project directory, you can run:
+> A simple application that utilizes the NASA Image and Video Library API to fetch and serve images and their respective metadata to the client.
 
-### `yarn start`
+> Technology used: React, fetch, API, HTML5, SASS, CSS3 ES6, Firebase
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-1.png?alt=media&token=7d9960df-7f29-4a7a-bd56-be53732d9f96" title="screenshot-1" alt="screenshot-1">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-2.png?alt=media&token=210467e6-987f-4a9d-8c9b-33a2b7300161" title="screenshot-2" alt="screenshot-2">
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `yarn build`
+<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-3.png?alt=media&token=b8d0a4d9-754a-48f9-af10-fa0926b1bae9" title="screenshot-3" alt="screenshot-3">
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation / Run Commands
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- npm install - to install all packages and dependencies
+- npm start - will run the application by default on port 3000 (localhost:3000)
+- npm run build - to build the application for production
+- firebase init - create firebase instance
+- firebase deploy - to run build, deploy, and host to firebase
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clone
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Clone this repo to your local machine using `git clone https://github.com/derferickc/nasa-image-metadata`

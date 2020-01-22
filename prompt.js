@@ -15,3 +15,5 @@ some of its metadata.
 
 Your solution should include a github link to your web client along with instructions
 on how to install, test and run it. Send the link to pvarshavskaya@rarecyte.com 
+
+Just display a table of images that you can get with their API (your choice of images, your choice of which of them to show), and allow the user to select one, at which point the app will display the image and some of its metadata.

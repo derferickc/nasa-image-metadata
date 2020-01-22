@@ -1,0 +1,119 @@
+.container {
+  max-width: unset !important;
+  height: 100vh;
+}
+
+.header {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/global-header_bg.jpg?alt=media&token=4d7313dd-ddbe-4c05-94f3-30b829ac8387");
+  background-color: #000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-bottom: 2px solid #000000;
+
+  .header-flex-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 0;
+    .copy{
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 300;
+      margin-right: 10px;
+    }
+    .image {
+      img {
+        width: 100%;
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+.partial {
+  background-color: #26282f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+
+  h1 {
+    margin-bottom: 30px;
+    font-size: 26px;
+  }
+
+  .astronaut {
+    img {
+      width: 100%;
+    }
+    margin-bottom: 30px;
+  }
+
+  .table {
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    th {
+      border: none;
+    }
+    tr {
+      display: flex;
+    }
+    td {
+      flex: 1;
+      img {
+        width: 100%;
+      }
+      .caption {
+        margin-top: 10px;
+      }
+      .learnmore-cta {
+        background-color: #0837CB;
+        color: #ffffff;
+        text-align: center;
+        padding: 12px 30px;
+        display: inline-block;
+        margin: 25px 10px 0 10px;
+      }
+    }
+  }
+
+  .image-page-wrapper {
+    .image-header {
+      a {
+        color: #ffffff;
+      }
+    }
+    .flex-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+      @media only screen and (max-width: 575px) {
+        display: block;
+      }
+      .left {
+        .img-caption {
+          margin: 15px auto;
+        }
+        img {
+          width: 100%;
+        }
+        @media only screen and (max-width: 575px) {
+          text-align: left;
+        }
+      }
+      .right {
+          .keyword-label {
+            background-color: #0837CB;
+            color: #ffffff;
+            text-align: center;
+            padding: 2px 15px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            display: inline-block;
+          }
+      }
+    }
+  }
+}
