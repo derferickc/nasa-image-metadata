@@ -1,5 +1,5 @@
 <a href="https://pixabay-search-app.web.app/">
-	<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/nasa_logo.png?alt=media&token=ba2231d8-0762-4f3f-aef2-8e3717e58f126" title="nasa-logo" alt="nasa-logo" width="150">
+	<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/nasa_logo.png?alt=media&token=ba2231d8-0762-4f3f-aef2-8e3717e58f12" title="nasa-logo" alt="nasa-logo" width="150">
 </a>
 
 # NASA Image Search App
