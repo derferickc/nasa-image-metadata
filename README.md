@@ -8,7 +8,7 @@
 
 > Technology used: React, fetch, API, HTML5, SASS, CSS3 ES6, Firebase
 
-<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-1.png?alt=media&token=7d9960df-7f29-4a7a-bd56-be53732d9f96" title="screenshot-1" alt="screenshot-1">
+<img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-4.png?alt=media&token=748bed43-1662-40d0-832d-e5b93817904d" title="screenshot-1" alt="screenshot-1">
 
 ---
 

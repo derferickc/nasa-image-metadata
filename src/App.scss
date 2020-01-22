@@ -1,3 +1,9 @@
+$white: #ffffff;
+$black: #000000;
+$blue: #0837CB;
+$lightblue: #3160F3;
+$darkgrey: #26282f;
+
 .container {
   max-width: unset !important;
   height: 100vh;
@@ -5,11 +11,11 @@
 
 .header {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/global-header_bg.jpg?alt=media&token=4d7313dd-ddbe-4c05-94f3-30b829ac8387");
-  background-color: #000000;
+  background-color: $black;
   background-position: center;
   background-repeat: no-repeat;
   background-size: auto;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid $black;
 
   .header-flex-wrapper {
     display: flex;
@@ -17,7 +23,7 @@
     align-items: center;
     padding: 30px 0;
     .copy{
-      color: #ffffff;
+      color: $white;
       font-size: 18px;
       font-weight: 300;
       margin-right: 10px;
@@ -32,10 +38,10 @@
 }
 
 .partial {
-  background-color: #26282f;
+  background-color: $darkgrey;
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #ffffff;
+  color: $white;
 
   h1 {
     margin-bottom: 30px;
@@ -45,14 +51,15 @@
   .astronaut {
     img {
       width: 100%;
+      max-width: 350px;
     }
     margin-bottom: 30px;
   }
 
   .table {
-    color: #ffffff;
+    color: $white;
     a {
-      color: #ffffff;
+      color: $white;
     }
     th {
       border: none;
@@ -64,17 +71,23 @@
       flex: 1;
       img {
         width: 100%;
+        max-width: 400px;
       }
       .caption {
         margin-top: 10px;
       }
       .learnmore-cta {
-        background-color: #0837CB;
-        color: #ffffff;
+        background-color: $blue;
+        color: $white;
         text-align: center;
         padding: 12px 30px;
         display: inline-block;
         margin: 25px 10px 0 10px;
+        box-shadow: 5px 5px $black;
+      }
+
+      .learnmore-cta:hover {
+        background-color: $lightblue;
       }
     }
   }
@@ -82,7 +95,7 @@
   .image-page-wrapper {
     .image-header {
       a {
-        color: #ffffff;
+        color: $white;
       }
     }
     .flex-wrapper {
@@ -93,6 +106,9 @@
         display: block;
       }
       .left {
+        .img-left {
+          max-width: 600px;
+        }
         .img-caption {
           margin: 15px auto;
         }
@@ -105,8 +121,8 @@
       }
       .right {
           .keyword-label {
-            background-color: #0837CB;
-            color: #ffffff;
+            background-color: $blue;
+            color: $white;
             text-align: center;
             padding: 2px 15px;
             margin-right: 10px;

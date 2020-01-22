@@ -20,7 +20,7 @@ class Image extends Component {
         {imageData.data.map((data) => (
           <div className="flex-wrapper" key={data.nasa_id}>
             <div className="col-12 col-sm-6 left">
-              <img className="img-responsive" src={imageURL} alt={data.nasa_id}/>
+              <img className="img-left" src={imageURL} alt={data.nasa_id}/>
               <div className="img-caption">{data.title}</div>
             </div>
             <div className="col-12 col-sm-6 right text-left">
