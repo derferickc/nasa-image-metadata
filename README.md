@@ -8,22 +8,27 @@
 
 > Technology used: React, fetch, API, HTML5, SASS, CSS3, TransitionGroup, CSSTransition, ES6, Firebase
 
+Homepage Hero
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-4.png?alt=media&token=748bed43-1662-40d0-832d-e5b93817904d" title="screenshot-1" alt="screenshot-1">
 
 ---
 
+Homepage Table
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-5.png?alt=media&token=17d977b6-70cc-4f9b-99dc-bde351055cab" title="screenshot-2" alt="screenshot-2">
 
 ---
 
+Image Details via Routing
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-3.png?alt=media&token=b8d0a4d9-754a-48f9-af10-fa0926b1bae9" title="screenshot-3" alt="screenshot-3">
 
 ---
 
+Image Details via Modal
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-6.png?alt=media&token=5cadf18a-59c4-429b-b9a7-e6604917a114" title="screenshot-3" alt="screenshot-4">
 
 ---
 
+404
 <img src="https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/screenshot-7.png?alt=media&token=45019eea-77ab-41cc-b836-1f678cc3309b" title="screenshot-3" alt="screenshot-4">
 
 ## Installation / Run Commands
