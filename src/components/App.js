@@ -34,7 +34,6 @@ class App extends Component {
 				(result) => {
 					this.setState({
 						imageData : result,
-						error: null
 					});
 				}
 	        )

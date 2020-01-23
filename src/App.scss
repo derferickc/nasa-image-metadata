@@ -26,6 +26,23 @@ $lightred: #991f00;
   height: 100vh;
 }
 
+.modal-body-wrapper {
+  img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .keyword-label {
+    background-color: $red;
+    color: $white;
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+}
+
 .header {
   background-image: url("https://firebasestorage.googleapis.com/v0/b/nasa-image-metadata.appspot.com/o/global-header_bg.jpg?alt=media&token=4d7313dd-ddbe-4c05-94f3-30b829ac8387");
   background-color: $black;
@@ -73,6 +90,7 @@ $lightred: #991f00;
 
 .learnmore-cta:hover {
   background-color: $lightblue;
+  transform: scale(1.1);
 }
 
 .learnmore-cta-earth {
@@ -161,16 +179,16 @@ $lightred: #991f00;
         }
       }
       .right {
-          .keyword-label {
-            background-color: $red;
-            color: $white;
-            text-align: center;
-            padding: 5px;
-            display: inline-block;
-            margin: 5px;
-            border-radius: 4px;
-            display: inline-block;
-          }
+        .keyword-label {
+          background-color: $red;
+          color: $white;
+          text-align: center;
+          padding: 5px;
+          display: inline-block;
+          margin: 5px;
+          border-radius: 4px;
+          display: inline-block;
+        }
       }
     }
   }
