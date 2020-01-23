@@ -49,5 +49,5 @@ Image Details via Modal
 - Clicking on the NASA logo on the top right will return user to the Homepage
 - Homepage: Click "LEARN MORE PAGE" CTA in order to view additional information about the image via routing
 - Homepage: Click "LEARN MORE MODAL" CTA in order to view additional information about the image via modal
-- Image Pages: Click "RETURN HOME" CTA if on image URL (url includes "/image/") to return to Homepage
+- Image Pages (url includes "/image/"): Click "RETURN HOME" CTA to return to Homepage
 - If you attempt to access a URL that is not defined, you will be directed to a 404 landing page
